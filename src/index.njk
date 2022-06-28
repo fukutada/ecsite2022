@@ -1,9 +1,15 @@
 ---
 title: Myshop
 layout: layout.njk
+cssPath: ./css/
 ---
 
 <h1>{{ title }}</h1>
+
+
+<h1>items</h1>
 <ul>
-	<li><a href="./product">product</a></li>
+	{% for item in items %}
+	<li><a href="../product/{{ item.price }}"> {{ item.name }} </a></li>
+	{% endfor %}
 </ul>

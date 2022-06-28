@@ -4,9 +4,13 @@ layout: layout.njk
 pagination:
   data: items
   size: 1
+  alias: item
+permalink: 'product/{{ pagination.items[0].price | slugify }}/'
 ---
 
 <ul>
-    <li>{{ pagination.items[0].name}}</li>
-     <li>{{ pagination.items[0].price}}</li>
+    <li>{{ item.name}}</li>
+    <li>{{ item.price}}</li>
+    <li>{{ item.maker}}</li>
+    <li>{{ item.text}}</li>
 </ul>
