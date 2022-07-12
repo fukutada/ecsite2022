@@ -1,15 +1,32 @@
 ---
 title: Myshop
 layout: layout.njk
-
+cssPath: css/
 ---
 
+<header class="index">
 <h1>{{ title }}</h1>
+</header>
+<main class="index">
+<h2>items</h2>
 
-
-<h1>items</h1>
-<ul>
+<div class="index_items">
 	{% for item in items %}
-	<li><a href="../product/{{ item.price }}"> {{ item.name }} </a></li>
+	<div class="index_item">
+	<img src="images/{{item.itemphotos[0]}}">
+	<p><a href="../product/{{ item.price }}"> {{ item.name }} </a></p>
+	<p>{{item.price}}</p>
+	{# {% if({{item.state}} == 'true') %}
+	<p>販売中<p>
+	{% elif({{item.state}} == 'false') %}
+	<p>売り切れ<p>
+	{% endif %} #}
+	<p>{{item.state}}<p>
+	</div>
 	{% endfor %}
-</ul>
+</div>
+
+</main>
+<footer>
+	<small><p>copylight Myshop 2022</p></small>
+</footer>

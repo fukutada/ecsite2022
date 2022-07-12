@@ -1,16 +1,24 @@
 ---
-title: 記事タイトル
+title: Myshop
 layout: layout.njk
 pagination:
   data: items
   size: 1
   alias: item
 permalink: 'product/{{ pagination.items[0].price | slugify }}/'
+cssPath: ../../css/
 ---
-
+<header class=".prod">
+<h1>{{ title }}</h1>
+</header>
+<main class=".prod">
 <ul>
     <li>{{ item.name}}</li>
     <li>{{ item.price}}</li>
     <li>{{ item.maker}}</li>
     <li>{{ item.text}}</li>
 </ul>
+</main>
+<footer>
+	<p>copylight Myshop 2022</p>
+</footer>
