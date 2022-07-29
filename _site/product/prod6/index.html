@@ -4,27 +4,65 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Myshop</title>
+		<title>フクタ模型店</title>
 		
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 		<link rel="stylesheet" href="../../css/style.css" />
 	</head>
 	<body>
-		<header class=".prod_header">
-<h1>Myshop</h1>
+		<header class="header">
+<h1>フクタ模型店</h1>
+<p><a href="#">about</a></p>
+<img src="../../images/site_buy_1.png" alt="" />
 </header>
-<main class=".prod">
+		
+<main class="prod">
+  <div class="prod_imgs">
+  <div class="prod_img_main">
+    <img src="../../images/prod01.jpg" alt=""/>
+    </div>
+    <div class="prod_img_sub">
+      <img src="../../images/prod01.jpg" alt=""/>
+      <img src="../../images/prod02.jpg" alt=""/>
+      <img src="../../images/prod03.jpg" alt=""/>
+      </div>
+    </div>
+    <div class="prod_text">
 <ul>
-    <li>ビルドストライクガンダムフルパッケージ</li>
-    <li>1,540</li>
-    <li>BANDAI</li>
-    <li>新アニメ『ガンダムビルドファイターズ』主人公機がアニメ放送に先駆けて発売。機動戦士ガンダムSEED』に登場するストライクガンダムをイオリ・セイが独自改造。</li>
+    <li class="prod_text_main">
+       <p class="prod_text_head">商品名</p>
+      <p>ビルドストライクガンダムフルパッケージ</p>
+      </li>
+
+    <li class="prod_text_main">
+       <p class="prod_text_head">商品説明</p>
+      <p>新アニメ『ガンダムビルドファイターズ』主人公機がアニメ放送に先駆けて発売。機動戦士ガンダムSEED』に登場するストライクガンダムをイオリ・セイが独自改造。</p>
+      </li>
+
+    <li class="prod_text_main">
+       <p class="prod_text_head">価格</p>
+      <p>1,540円</p>
+
+    </li>
+
+    <li class="prod_text_main">
+     <p class="prod_text_head">購入数量</p>
+    <input type="number">
+    </li>
+
+    <li class="prod_text_main">
+       <p class="prod_text_head">製造元</p>
+     <p> BANDAI</p>
+      </li>
+
+    <button>購入する</button>
 </ul>
+</div>
 </main>
 <footer>
 	<p>copylight Myshop 2022</p>
 </footer>
 
-		<script src="script.js"></script>
+		<script src="../../js/product.js"></script>
 	</body>
 </html>

@@ -16,3 +16,18 @@ btn.addEventListener("click",function(){
          btn.innerText= "MORE"
     }
 })
+
+const select = document.querySelectorAll(".index_state")
+
+
+for(let i = 0; i < select.length; i++){
+    console.log(select[i].innerText)
+    if(select[i].innerText === "true"){
+        select[i].innerText="販売中"
+        console.log(8)
+    }else{
+        select[i].innerText="売り切れ"
+    }
+}
+
+

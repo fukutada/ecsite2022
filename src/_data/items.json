@@ -17,9 +17,9 @@
     {
         "itemphotos": [
             "bow.svg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "シュヴァルベ・グレイズ",
         "price": "1,100",
@@ -32,10 +32,10 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod01.jpg",
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "シュヴァルベカスタム",
         "price": "1,760",
@@ -48,10 +48,10 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod01.jpg",
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "ジム・ガードカスタム",
         "price": "1,980",
@@ -64,10 +64,10 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod01.jpg",
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "Gエグゼス",
         "price": "1,320",
@@ -80,10 +80,10 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod01.jpg",
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "ビルドストライクガンダムフルパッケージ",
         "price": "1,540",
@@ -96,12 +96,12 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod7_1.jpg",
+            "site_buy_1.png",
+            "bow.svg",
+            "prod04.jpg"
         ],
-        "name": "30MS　スピナティオ（忍者仕様）",
+        "name": "30MM　スピナティオ（忍者仕様）",
         "price": "1,480",
         "state": "true",
         "text": "30MMシリーズに新たに加わった、第３勢力の量産機「スピナティオ」に忍者仕様が登場！",
@@ -112,10 +112,10 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod01.jpg",
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "ドムヘッド",
         "price": 500,
@@ -128,10 +128,10 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod01.jpg",
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "ポケプラ　アルセウス",
         "price": "1,485",
@@ -144,10 +144,10 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "prod01.jpg",
+            "prod02.jpg",
+            "prod03.jpg",
+            "prod04.jpg"
         ],
         "name": "ガンダムTR-6　ウーンドウォート",
         "price": "1,980",

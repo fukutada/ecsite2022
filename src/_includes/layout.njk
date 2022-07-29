@@ -13,7 +13,12 @@ title: レイアウトに指定したタイトル
 		<link rel="stylesheet" href="{{ cssPath }}style.css" />
 	</head>
 	<body>
+		<header class="header">
+<h1>{{ title }}</h1>
+<p><a href="#">about</a></p>
+<img src="{{ imgPath }}site_buy_1.png" alt="" />
+</header>
 		{{ content | safe }}
-		<script src="{{ scriptPath }}script.js"></script>
+		<script src="{{ scriptPath }}.js"></script>
 	</body>
 </html>

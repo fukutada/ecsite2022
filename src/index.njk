@@ -2,28 +2,31 @@
 title: フクタ模型店
 layout: layout.njk
 cssPath: css/
-scriptPath: js/
+scriptPath: js/script
+imgPath: images/
 ---
 
-<header class="index">
-<h1>{{ title }}</h1>
-</header>
+
 <main class="index">
-<h2>ラインナップ</h2>
+<h2>商品ラインナップ</h2>
 <div class="index_all">
 <div class="index_items">
 	{% for item in items %}
+	
 	<div class="index_item">
+		<a href="../product/{{ item.url }}">
 	<img src="images/{{item.itemphotos[0]}}">
-	<p class="index_items_name"><a href="../product/{{ item.url }}"> {{ item.name }} </a></p>
-	<p>¥{{item.price}}</p>
+	<p class="index_items_name"> {{ item.name }} </p>
+	<p class="index_price">¥{{item.price}}</p>
 	{# {% if({{item.state}} == 'true') %}
 	<p>販売中<p>
 	{% elif({{item.state}} == 'false') %}
 	<p>売り切れ<p>
 	{% endif %} #}
-	<p>{{item.state}}<p>
+	<p class="index_state">{{item.state}}<p>
+		</a>
 	</div>
+	
 	{% endfor %}
 </div>
 <button>MORE</button>
