@@ -5,10 +5,10 @@ pagination:
   data: items
   size: 1
   alias: item
-permalink: 'product/{{ pagination.items[0].price | slugify }}/'
+permalink: 'product/{{ pagination.items[0].url | slugify }}/'
 cssPath: ../../css/
 ---
-<header class=".prod">
+<header class=".prod_header">
 <h1>{{ title }}</h1>
 </header>
 <main class=".prod">

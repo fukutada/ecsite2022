@@ -5,6 +5,13 @@ img {
 }
 
 h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 1.25em auto 0.5em auto;
+  border-bottom: #000 1px solid;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -17,16 +24,56 @@ footer {
   text-align: center;
 }
 
+.index_all {
+  background-color: #000;
+}
 .index img {
-  width: 80%;
+  width: 100%;
+  margin: 0 auto;
 }
 .index_items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25em 0;
+}
+.index_items_name {
+  border-bottom: #000 2px solid;
 }
 .index_item {
   width: 30%;
+  margin: 0.75em auto;
+  padding: 1.25em 0;
+  background-color: #fff;
+}
+.index p {
+  margin-left: 1.25em;
+}
+
+button {
+  display: block;
+  color: #000;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 5em;
+  border-radius: 10%;
+}
+
+.prod {
+  background-color: #000;
+}
+.prod ul {
+  margin-left: 1.25em;
+}
+
+footer {
+  margin: 2em auto 1em auto;
+}
+
+.remove {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
