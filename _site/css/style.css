@@ -132,6 +132,7 @@ button {
 }
 .prod_text_head {
   font-size: 1.2rem;
+  font-weight: bold;
 }
 .prod button {
   color: #000;
