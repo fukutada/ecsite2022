@@ -20,40 +20,41 @@ imgPath: ../../images/
       <img src="../../images/{{ item.itemphotos[0] }}" alt=""/>
       <img src="../../images/{{ item.itemphotos[1] }}" alt=""/>
       <img src="../../images/{{ item.itemphotos[2] }}" alt=""/>
+       <img src="../../images/{{ item.itemphotos[3] }}" alt=""/>
       </div>
     </div>
     <div class="prod_text">
 <ul>
     <li class="prod_text_main">
        <p class="prod_text_head">商品名</p>
-      <p>{{ item.name}}</p>
+      <p class="prod_text_link">{{ item.name}}</p>
       </li>
 
     <li class="prod_text_main">
        <p class="prod_text_head">商品説明</p>
-      <p>{{ item.text}}</p>
+      <p class="prod_text_link">{{ item.text}}</p>
       </li>
 
     <li class="prod_text_main">
        <p class="prod_text_head">価格</p>
-      <p>{{ item.price}}円</p>
+      <p class="prod_text_link">{{ item.price}}円</p>
 
     </li>
 
     <li class="prod_text_main">
      <p class="prod_text_head">購入数量</p>
-    <input type="number">
+    <input type="number" value="0" min="0">
     </li>
 
     <li class="prod_text_main">
        <p class="prod_text_head">製造元</p>
-     <p> {{ item.maker}}</p>
+     <p > {{ item.maker}}</p>
       </li>
-
+<div class="btns">
+    <button>カートに入れる</button>
     <button>購入する</button>
+    </btn>
 </ul>
 </div>
 </main>
-<footer>
-	<p>copylight Myshop 2022</p>
-</footer>
+
