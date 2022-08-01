@@ -11,6 +11,8 @@ https://odd-yoron-0720.littlestar.jp/_site/
 ## Features
 
 <!-- セールスポイントや差別化などを説明する。-->
+店の名前はフクタ模型店で販売している商品はプラモデルになります。
+今回はボタンなどの動きはJavaScriptで作っています。
 
 ## Requirement
 

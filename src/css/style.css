@@ -32,6 +32,7 @@ header h1 {
 }
 header h1 a {
   color: #fff;
+  cursor: pointer;
 }
 header p {
   font-size: 1em;
@@ -39,6 +40,7 @@ header p {
 }
 header p a {
   color: #fff;
+  cursor: pointer;
 }
 header img {
   display: block;
