@@ -1,9 +1,9 @@
 [
     {
         "itemphotos": [
-            "bow.svg",
-            "umaibo02.jpg",
-            "umaibo03.jpg",
+            "prod1_1.svg",
+            "prod1_2.svg",
+            "prod1_3.svg",
             "prod1_4.jpeg"
         ],
         "name": "ガンダム・バルバトス",
@@ -17,9 +17,9 @@
     },
     {
         "itemphotos": [
-            "bow.svg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod2_1.svg",
+            "prod2_2.svg",
+            "prod2_3.svg",
             "prod2_4.jpeg"
         ],
         "name": "シュヴァルベ・グレイズ",
@@ -33,9 +33,9 @@
     },
     {
         "itemphotos": [
-            "prod01.jpg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod3_1.svg",
+            "prod3_2.svg",
+            "prod3_3.svg",
             "prod3_4.jpeg"
         ],
         "name": "シュヴァルベカスタム",
@@ -49,9 +49,9 @@
     },
     {
         "itemphotos": [
-            "prod01.jpg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod4_1.svg",
+            "prod4_2.svg",
+            "prod4_3.svg",
             "prod4_4.jpeg"
         ],
         "name": "ジム・ガードカスタム",
@@ -65,9 +65,9 @@
     },
     {
         "itemphotos": [
-            "prod01.jpg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod5_1.svg",
+            "prod5_2.svg",
+            "prod5_3.svg",
             "prod5_4.jpeg"
         ],
         "name": "Gエグゼス",
@@ -81,9 +81,9 @@
     },
     {
         "itemphotos": [
-            "prod01.jpg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod6_1.svg",
+            "prod6_2.svg",
+            "prod6_3.svg",
             "prod6_4.jpeg"
         ],
         "name": "ビルドストライクガンダムフルパッケージ",
@@ -97,9 +97,9 @@
     },
     {
         "itemphotos": [
-            "prod7_1.jpg",
-            "prod7_2.jpg",
-            "prod7_3.jpg",
+            "prod7_1.svg",
+            "prod7_2.svg",
+            "prod7_3.svg",
             "prod7_4.jpeg"
         ],
         "name": "30MM　スピナティオ（忍者仕様）",
@@ -113,9 +113,9 @@
     },
     {
         "itemphotos": [
-            "prod01.jpg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod8_1.svg",
+            "prod8_2.svg",
+            "prod8_3.svg",
             "prod8_4.jpeg"
         ],
         "name": "ドムヘッド",
@@ -129,9 +129,9 @@
     },
     {
         "itemphotos": [
-            "prod01.jpg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod9_1.svg",
+            "prod9_2.svg",
+            "prod9_3.svg",
             "prod9_4.jpeg"
         ],
         "name": "ポケプラ　アルセウス",
@@ -145,9 +145,9 @@
     },
     {
         "itemphotos": [
-            "prod01.jpg",
-            "prod02.jpg",
-            "prod03.jpg",
+            "prod10_1.svg",
+            "prod10_2.svg",
+            "prod10_3.svg",
             "prod10_4.jpeg"
         ],
         "name": "ガンダムTR-6　ウーンドウォート",

@@ -14,10 +14,10 @@ imgPath: images/
 	{% for item in items %}
 	
 	<div class="index_item">
-		<a href="../product/{{ item.url }}">
-	<img src="images/{{item.itemphotos[0]}}">
+		<a href="product/{{ item.url }}">
+	<img src="images/{{ item.url }}/{{item.itemphotos[0]}}">
 	<p class="index_items_name"> {{ item.name }} </p>
-	<p class="index_price">¥{{item.price}}</p>
+	<p class="index_price">{{item.price}}円</p>
 	{# {% if({{item.state}} == 'true') %}
 	<p>販売中<p>
 	{% elif({{item.state}} == 'false') %}
