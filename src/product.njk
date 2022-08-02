@@ -27,31 +27,32 @@ imgPath: ../../images/
     </div>
     <div class="prod_text">
 <ul>
+  {# 商品名 #}
     <li class="prod_text_main">
        <p class="prod_text_head">商品名</p>
       <p class="prod_text_link">{{ item.name}}</p>
       </li>
-
+    {# 説明 #}
     <li class="prod_text_main">
        <p class="prod_text_head">商品説明</p>
       <p class="prod_text_link">{{ item.text}}</p>
       </li>
-
+    {# 価格 #}
     <li class="prod_text_main">
        <p class="prod_text_head">価格</p>
       <p class="prod_text_link">{{ item.price}}円</p>
-
     </li>
-
+    {# 購入数量 #}
     <li class="prod_text_main">
      <p class="prod_text_head">購入数量</p>
     <input type="number" value="0" min="0">
     </li>
-
+    {# 製造元 #}
     <li class="prod_text_main">
        <p class="prod_text_head">製造元</p>
      <p > {{ item.maker}}</p>
       </li>
+      {# ボタン #}
 <div class="btns">
     <button>カートに入れる</button>
     <button>購入する</button>
