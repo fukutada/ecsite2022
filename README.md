@@ -23,7 +23,7 @@ https://odd-yoron-0720.littlestar.jp/_site/
 
 - 11ty@eleventy 1.0.1
 - Nunjucks
-- jQuery 3.6.0
+
 
 # Author
 
