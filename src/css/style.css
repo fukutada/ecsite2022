@@ -69,6 +69,24 @@ footer {
   font-size: 0.8em;
 }
 
+.footer {
+  color: #fff;
+  padding: 3em 0 1em 0;
+  background-color: #E1B0E6;
+}
+.footer img {
+  width: 10%;
+  max-width: 5em;
+  padding: 0 1em;
+}
+.footer_div {
+  margin: 0 auto 1.25em auto;
+}
+
+.remove {
+  display: none;
+}
+
 .index_all {
   padding-bottom: 2em;
 }
@@ -199,24 +217,6 @@ button:hover {
   color: #fff;
   background-color: #E1B0E6;
   border: none;
-}
-
-.footer {
-  color: #fff;
-  padding: 3em 0 1em 0;
-  background-color: #E1B0E6;
-}
-.footer img {
-  width: 10%;
-  max-width: 5em;
-  padding: 0 1em;
-}
-.footer_div {
-  margin: 0 auto 1.25em auto;
-}
-
-.remove {
-  display: none;
 }
 
 @media (max-width: 800px) {
