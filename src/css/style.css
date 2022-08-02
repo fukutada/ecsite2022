@@ -49,6 +49,12 @@ header img {
   margin-left: auto;
   margin-right: 0;
 }
+header .count {
+  padding: 0em 0.5em;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #000;
+}
 
 .header {
   max-width: 1000px;
@@ -197,6 +203,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 2.15em;
 }
 .prod_text_name {
   font-size: 1.5em;

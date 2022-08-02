@@ -45,12 +45,7 @@ imgPath: ../../images/
      <p class="prod_text_head">購入数量</p>
     <input type="number" value="0" min="0">
     </li>
-    {# 製造元 #}
-    <li class="prod_text_main">
-       <p class="prod_text_head">製造元</p>
-     <p > {{ item.maker}}</p>
-    
-      </li>
+  
       {# その他の情報 #}
     <li class="prod_text_info">
        <p class="prod_text_sub">型番</p>
@@ -63,7 +58,7 @@ imgPath: ../../images/
       </li>
       {# ボタン #}
 <div class="btns">
-    <button>カートに入れる</button>
+    <button><p class="prod_count">カートに入れる<p></button>
     <button><p class="prod_state">{{item.state}}<p></button>
     </div>
 </ul>

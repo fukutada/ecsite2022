@@ -25,3 +25,13 @@ console.log(pselect)
         // 文の入れ替え
         pselect.innerText="売り切れ"
     }
+
+// カートのカウント
+let count = document.querySelector(".count")
+const Cbtn = document.querySelector(".prod_count")
+Cbtn.addEventListener("click",function(){ 
+    // inputから値を取得
+    let con = document.querySelector("input")
+console.log(con.value)
+    count.innerHTML = con.value
+})
