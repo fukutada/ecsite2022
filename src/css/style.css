@@ -198,6 +198,10 @@ button:hover {
   justify-content: flex-start;
   align-items: center;
 }
+.prod_text_name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
 .prod_text_link {
   font-size: 1.1em;
   padding-top: 0.5em;
