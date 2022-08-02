@@ -26,7 +26,7 @@ header{
         margin: 0 auto;
     }
     text-align: center;
-    padding: 1.25em 2em 0.5em 2em;
+    padding: 2.25em 2em 1.5em 2em;
     color: #fff;
     background-color:#E1B0E6 ;
     & h1{
@@ -183,7 +183,7 @@ button{
             &_sub{
                 margin: 2em auto;
                 & img{
-                width: 25%;
+                width: 20%;
                 }
             }
         }
@@ -197,9 +197,20 @@ button{
                 font-weight: bold;
                 border-bottom: #E1B0E6 2px solid;
             }
+            &_info{
+                @include flex(flex-start,center );
+            }
             &_link{
                 font-size: 1.1em;
                 padding-top: 0.5em;
+            }
+            &_sub{
+                margin-right: 1.25em;
+                margin-left: 2em;
+                font-weight: bold;
+                &:first-child{
+                    margin-left: 0em;
+                }
             }
         }
         & .btns{

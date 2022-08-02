@@ -14,7 +14,7 @@ img {
 
 header {
   text-align: center;
-  padding: 1.25em 2em 0.5em 2em;
+  padding: 2.25em 2em 1.5em 2em;
   color: #fff;
   background-color: #E1B0E6;
 }
@@ -179,7 +179,7 @@ button:hover {
   margin: 2em auto;
 }
 .prod_img_sub img {
-  width: 25%;
+  width: 20%;
 }
 .prod_text {
   width: 45%;
@@ -192,9 +192,23 @@ button:hover {
   font-weight: bold;
   border-bottom: #E1B0E6 2px solid;
 }
+.prod_text_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
 .prod_text_link {
   font-size: 1.1em;
   padding-top: 0.5em;
+}
+.prod_text_sub {
+  margin-right: 1.25em;
+  margin-left: 2em;
+  font-weight: bold;
+}
+.prod_text_sub:first-child {
+  margin-left: 0em;
 }
 .prod .btns {
   display: flex;
