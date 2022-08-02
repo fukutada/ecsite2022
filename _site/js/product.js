@@ -12,3 +12,16 @@ for(let i = 0; i < sub.length; i++){
     main.setAttribute("src", sub[i].getAttribute("src"))
  })
 }
+
+// ボタンの売り切れの判定
+const pselect = document.querySelector(".prod_state")
+console.log(pselect)
+
+    // 判定のif文
+    if(pselect.innerText === "true"){
+        // 文の入れ替え
+        pselect.innerText="購入する"
+    }else{
+        // 文の入れ替え
+        pselect.innerText="売り切れ"
+    }

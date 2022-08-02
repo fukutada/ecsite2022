@@ -51,11 +51,12 @@ imgPath: ../../images/
     <li class="prod_text_main">
        <p class="prod_text_head">製造元</p>
      <p > {{ item.maker}}</p>
+    
       </li>
       {# ボタン #}
 <div class="btns">
     <button>カートに入れる</button>
-    <button>購入する</button>
+    <button><p class="prod_state">{{item.state}}<p></button>
     </div>
 </ul>
 </div>
