@@ -8,26 +8,33 @@ title: レイアウトに指定したタイトル
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ title }}</title>
-		
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
 		<link rel="stylesheet" href="{{ cssPath }}style.css" />
 	</head>
 	<body>
+		{# ヘッダー #}
 		<header class="header_all">
 			<div class="header">
-<h1><a herf="index.html">{{ title }}</a></h1>
-<p><a href="#">about</a></p>
-<img src="{{ imgPath }}site_buy_1.png" alt="" />
-</div>
-</header>
+            <h1><a herf="index.html">{{ title }}</a></h1>
+            <p><a href="#">about</a></p>
+			{# カートの画像 #}
+            <img src="{{ imgPath }}site_buy_1.png" alt="" />
+            </div>
+		</header>
+
 		{{ content | safe }}
+
+		{# フッター #}
 		<footer class="footer">
+			{# シェアアイコン #}
 			<div class="footer_div">
+				{# ツイッター #}
 				<img src="{{ imgPath }}2021 Twitter logo - blue.png" alt="">
+				{# フェイスブック #}
 				<img src="{{ imgPath }}f_logo_RGB-Blue_144.png" alt="">
 				</div>
-	<p>copylight fukuta 2022</p>
-</footer>
+				<p>copylight fukuta 2022</p>
+		</footer>
 		<script src="{{ scriptPath }}.js"></script>
 	</body>
 </html>

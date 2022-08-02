@@ -24,7 +24,6 @@ btn.addEventListener("click",function(){
     }
 })
 
-
 // 販売状態の変化
 // stateの取得
 const select = document.querySelectorAll(".index_state")
